@@ -6,7 +6,7 @@ definire una classe ‘Movie’:
     almeno un metodo
 
 istanziare due oggetti ‘Movie’
-var_dump degli oggetti creati
+var_dump degli oggetti creati--!>
 
 <?php
 
