@@ -26,12 +26,12 @@ class Movie {
     }
 
     public function setMustSee(){
-        if ($vote > 9) {
+        if ($this->vote > 9) {
             $this->must_see = true;
         } else {
             $this->must_see = false;
         };
-        getMustSee();
+        $this->getMustSee();
     }
 
     public function getMustSee(){
